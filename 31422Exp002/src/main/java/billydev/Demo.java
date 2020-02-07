@@ -12,6 +12,5 @@ public class Demo {
                 .map(line->line.split(" "))
                 .map(arr->arr[arr.length-1])
                 .forEach(field-> System.out.println(field));
-        
     }
 }
